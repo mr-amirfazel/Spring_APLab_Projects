@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="406.0" prefWidth="334.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Button contentDisplay="TOP" layoutX="24.0" layoutY="334.0" mnemonicParsing="false" nodeOrientation="LEFT_TO_RIGHT" onAction="#zero" prefHeight="51.0" prefWidth="169.0" text="0" AnchorPane.rightAnchor="149.0" AnchorPane.topAnchor="334.0">
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+         <font>
+            <Font name="Arial Narrow Bold Italic" size="28.0" />
+         </font>
+      </Button>
+      <Button layoutX="21.0" layoutY="276.0" mnemonicParsing="false" onAction="#one" prefHeight="44.0" prefWidth="45.0" text="1">
+         <font>
+            <Font name="System Bold Italic" size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="81.0" layoutY="275.0" mnemonicParsing="false" onAction="#two" prefHeight="44.0" prefWidth="45.0" text="2">
+         <font>
+            <Font name="System Bold Italic" size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="136.0" layoutY="148.0" mnemonicParsing="false" onAction="#nine" prefHeight="44.0" prefWidth="45.0" text="9">
+         <font>
+            <Font name="System Bold Italic" size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="81.0" layoutY="148.0" mnemonicParsing="false" onAction="#eight" prefHeight="44.0" prefWidth="45.0" text="8">
+         <font>
+            <Font name="System Bold Italic" size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="21.0" layoutY="148.0" mnemonicParsing="false" onAction="#seven" prefHeight="44.0" prefWidth="45.0" text="7">
+         <font>
+            <Font name="System Bold Italic" size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="136.0" layoutY="216.0" mnemonicParsing="false" onAction="#six" prefHeight="44.0" prefWidth="45.0" text="6">
+         <font>
+            <Font name="System Bold Italic" size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="81.0" layoutY="216.0" mnemonicParsing="false" onAction="#five" prefHeight="44.0" prefWidth="45.0" text="5">
+         <font>
+            <Font name="System Bold Italic" size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="21.0" layoutY="216.0" mnemonicParsing="false" onAction="#four" prefHeight="44.0" prefWidth="45.0" text="4">
+         <font>
+            <Font name="System Bold Italic" size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="136.0" layoutY="276.0" mnemonicParsing="false" onAction="#three" prefHeight="44.0" prefWidth="45.0" text="3">
+         <font>
+            <Font name="System Bold Italic" size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="203.0" layoutY="57.0" mnemonicParsing="false" onAction="#allClear" prefHeight="94.0" prefWidth="123.0" text="AC">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Button>
+      <TextField fx:id="textField" layoutX="13.0" layoutY="57.0" prefHeight="78.0" prefWidth="169.0" />
+      <Button layoutX="217.0" layoutY="160.0" mnemonicParsing="false" onAction="#add" prefHeight="33.0" prefWidth="38.0" text="+">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="217.0" layoutY="203.0" mnemonicParsing="false" onAction="#subtract" prefHeight="33.0" prefWidth="38.0" text="-" AnchorPane.bottomAnchor="159.0">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button layoutX="265.0" layoutY="159.0" mnemonicParsing="false" onAction="#divide" prefHeight="33.0" prefWidth="38.0" text="/">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Button>
+      <Button layoutX="265.0" layoutY="206.0" mnemonicParsing="false" onAction="#multiply" prefHeight="33.0" prefWidth="38.0" text="*">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="203.0" layoutY="251.0" mnemonicParsing="false" onAction="#displayResult" prefHeight="139.0" prefWidth="123.0" text="=">
+         <font>
+            <Font size="58.0" />
+         </font>
+      </Button>
+      <Label fx:id="calcTitle" layoutX="4.0" layoutY="8.0" prefHeight="31.0" prefWidth="334.0" text="le calculator" textAlignment="CENTER">
+         <font>
+            <Font name="System Italic" size="32.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
